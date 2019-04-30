@@ -1,0 +1,51 @@
+SUOMEN LINTUATLAS: 1. ja 2. lintuatlaksen tulokset muutos
+==================================================
+
+Tiedostossa lajit.csv on pilkulla erotettuina seuraavat sarakkeet:
+
+1) Lajin kuusikirjaiminen lyhenne
+2) Lajin tieteellinen nimi
+3) Lajin suomenkielinen nimi
+4) lajin ruotsinkielinen nimi
+5) Lajin englanninkielinen nimi
+6) Lajin tietojen julkisuus (0 = salattu, 1 = julkinen)
+
+Tiedostossa ruudut.csv on pilkulla erotettuina seuraavat sarakkeet:
+
+1) Yhten�iskoordinaatiston peninkulmaruudun N-koordinaatti
+2) Yhten�iskoordinaatiston peninkulmaruudun E-koordinaatti
+3) Ruudun selvitysaste 1. atlaksessa
+4) Ruudun selvitysaste 2. atlaksessa
+5) Ruudun selvitysaste 1. ja 2. atlaksen yhdistetyss� aineistossa
+
+Sarakkeiden 3-5 selvitysasteet on koodattu seuraavasti:
+
+0 = Ei havaintoja
+1 = Satunnaistietoja
+2 = V�ltt�v�
+3 = Tyydytt�v�
+4 = Hyv�
+5 = Erinomainen
+
+Tiedostossa havainnot.csv on pilkulla erotettuina seuraavat sarakkeet:
+
+1) Lajin kuusikirjaiminen lyhenne
+2) Yhten�iskoordinaatiston peninkulmaruudun N-koordinaatti
+3) Yhten�iskoordinaatiston peninkulmaruudun E-koordinaatti
+4) Pesim�varmuusluokka ensimm�isess� atlaksessa 1974-79
+5) Pesim�varmuusluokka toisessa atlaksessa 1986-89
+6) Pesim�varmuusluokka ensimm�isen ja toisen atlaksen yhdistetyss� aineistossa
+
+Sarakkeissa 4-6 pesim�varmuusluokat on koodattu seuraavasti:
+
+0 = Ei havaintoa
+1 = Ep�todenn�k�inen pesint�
+2 = Mahdollinen pesint�
+3 = Todenn�k�inen pesint�
+4 = Varma pesint�
+
+Tiedostossa havainnot.csv ei ole tietoja niist� lajeista,
+jotka lajiluettelossa on merkitty salatuiksi.
+
+Luonnontieteellinen keskusmuseo
+http://www.luomus.fi
